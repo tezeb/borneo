@@ -9,7 +9,6 @@ a, a:visited {
 }
 
 a:hover {
-	text-decoration: underline;
 	font-weight: 800;
 }
 
@@ -17,12 +16,12 @@ a:hover {
 	background-color: white;
 	margin: auto;
 	padding: 0;
-	width: 1024px;
+	width: 1000px;
 }
 #main-headerimg {
 	border: solid 0px black;
 	height: 100px;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 	text-align: center;
 }
 #main-headerimg img {
@@ -32,6 +31,26 @@ a:hover {
 	border: solid 0px black;
 	height: 20px;
 	text-align: center;
+  margin-bottom: 5px;
+}
+#main-menu li {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+}
+#main-menu ul {
+  padding: 0;
+}
+#main-menu li a::after {
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  display: block;
+/*  visibility: hidden;*/
+}
+#main-menu li a::hover {
+  font-weight: 800;
 }
 #main-content {
 	overflow: auto;
@@ -39,7 +58,7 @@ a:hover {
 	min-height: 600px;
 }
 #map {
-	width: 1020px;
+	width: 99%;
 	border: solid 2px #00f;
 	min-height: 600px;
 	margin: 0 auto;
@@ -56,17 +75,14 @@ a:hover {
 	z-index: 0;
 }
 #main-post-container {
-	width: 0%;
 	border: solid 2px #ffff00;
 	overflow: auto;
-	float: right;
 	min-height: inherit;
-	display: none;
 }
 
 #main-post {
 	min-height: inherit;
-	width: inherit;
+	width: 100%;
 	overflow: auto;
 	border: none;
 }
@@ -93,4 +109,105 @@ div.circle {
 
 .inner {
 	line-height: 160%;
+	margin: 0 20px 20px;
+}
+
+.full {
+/*  width: 1000px;*/
+	padding: 0 20px 20px;
+}
+
+.full h1 {
+	font-weight: 400;
+}
+
+.hidden {
+  display: none;
+	width: 0%;
+}
+
+.right {
+  float: right;
+}
+
+.fullscreen,
+.fotorama--fullscreen,
+.fotorama--fullscreen .fotorama__stage,
+.fotorama--fullscreen .fotorama__nav,
+.fotorama-overlay {
+  background-color: #f5f2ed;
+}
+
+.thumbs > .fotorama {
+  overflow: visible;
+}
+
+/* style thumbs a bit */
+.thumbs a {
+  text-decoration: none;
+  display: inline !important;
+  color: #34457b;
+}
+.thumbs a:hover {
+  color: #af1d05;
+}
+.thumbs a.switch {
+  border-bottom: 1px dashed;
+}
+.thumbs img {
+  width: auto;
+  border: 2px #fff solid;
+  margin-left: -2px;
+  max-height: 100px;
+  max-width: 100px;
+  vertical-align: top;
+}
+
+.thumbs a:hover img {
+  border-color: #f0f;
+}
+
+/* straight “close” icon instead of “cancel fullscreen” */
+.fotorama--fullscreen .fotorama__fullscreen-icon {
+  background-position: -64px 0;
+}
+
+.gallery {
+}
+.thumbs {
+  height: 100px;
+  display: inline-block;
+}
+#moving_strip {
+  position: relative;
+  left: 0;
+}
+#moving_strip img {
+  display: inline-block;
+}
+.strip {
+  width: 500px;  
+  overflow: hidden;
+  display: inline-block;
+  clear: none;
+  white-space: nowrap;
+}
+.nav {
+  display: inline-block;
+  clear: none;
+  font-weight: 800;
+  vertical-align: top;
+}
+.nav a, .nav a:visited, .nav a:hover {
+ color: #f0f;
+ display: inline-block;
+ line-height: 100px;
+}
+.nav::after {
+  content: '>';
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
 }
