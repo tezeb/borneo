@@ -29,8 +29,10 @@ function showPost() {
  var src = this.options.url;
  $('#map').animate ({width:"33%"},"slow").siblings('#main-post-container')
    .animate({'width': '64%'}, "slow",function(){
-     var iframe = document.getElementById('main-post');
-     iframe.src = src;
+     $.get(src, function(data) {
+       console.log(src);
+       $('#main-post').html(data);
+     });
      map.fitBounds(markers.getBounds(), {maxZoom: 8});
    });
  /*
@@ -92,16 +94,31 @@ function addToMarkers(point, url) {
 
 $(document).ready(function(){
  var l = datapoints.length;
+ var m = L.marker(kuching, {clickable: false});
+ m.setOpacity(0);
+  markers.addLayer(m);
 
  if( l > 0) {
- for (i=0; i<l ;i++) {
-  var lng = datapoints[i].lon;
-  var lat = datapoints[i].lat;
-  var point = new L.LatLng(lat,lng);
-  addToMarkers(point, datapoints[i].url);
- }
+   for (i=0; i<l ;i++) {
+    var lng = datapoints[i].lon;
+    var lat = datapoints[i].lat;
+    var point = new L.LatLng(lat,lng);
+    addToMarkers(point, datapoints[i].url);
+   }
  map.fitBounds(markers.getBounds(), {maxZoom: 8});
  map.addLayer(markers);
  line.addTo(map);
  }
 }); 
+
+function showPlace(url) {
+ $('#map').show();
+ $('#map').animate ({width:"33%"},"slow").siblings('#main-post-container')
+   .animate({'width': '64%'}, "slow",function(){
+     $.get(url, function(data) {
+       $('#main-post').html(data);
+     });
+     map.fitBounds(markers.getBounds(), {maxZoom: 8});
+   });
+  return false;
+}

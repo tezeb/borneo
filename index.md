@@ -4,4 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: map
 map: true
+mapClass: fullVis
+mainClass: hidden
 ---

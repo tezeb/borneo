@@ -58,7 +58,6 @@ a:hover {
 	min-height: 600px;
 }
 #map {
-	width: 99%;
 	border: solid 2px #00f;
 	min-height: 600px;
 	margin: 0 auto;
@@ -85,6 +84,7 @@ a:hover {
 	width: 100%;
 	overflow: auto;
 	border: none;
+  padding: 0 20px;
 }
 
 div.circle {
@@ -100,6 +100,7 @@ div.circle {
 	overflow: auto;
 	border: solid 0px red;
 	min-height: 600px;
+	height: 600px;
 }
 
 .post-header {
@@ -124,6 +125,11 @@ div.circle {
 .hidden {
   display: none;
 	width: 0%;
+}
+
+.fullVis {
+  width: 99%;
+  display: block;
 }
 
 .right {
@@ -186,7 +192,7 @@ div.circle {
   display: inline-block;
 }
 .strip {
-  width: 500px;  
+  width: 550px;  
   overflow: hidden;
   display: inline-block;
   clear: none;
@@ -210,4 +216,8 @@ div.circle {
   overflow: hidden;
   display: block;
   visibility: hidden;
+}
+
+.fotorama__thumb-border {
+  border-color: #f0f;
 }

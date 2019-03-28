@@ -9,12 +9,14 @@ var datapoints = [
 ];
 </script>
 
-<div id="map">
+<div id="map" class="{{ page.mapClass }}">
 <div id="main-mc"></div>
 </div>
 
 <script type="text/javascript" src="/js/script.js" ></script>
 
-<div id="main-post-container" class="hidden right">
-  <iframe id="main-post" src="" />
+<div id="main-post-container" class="{{ page.mainClass}} right">
+  <div id="main-post">
+    {{ content }}
+  </div>
 </div>

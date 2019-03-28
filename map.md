@@ -4,6 +4,7 @@ layout: none
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 
  {% include head.md %}
+ {% include head_map.md %}
 
  <body>
   <div id="page">
