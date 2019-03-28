@@ -26,10 +26,13 @@ myCircleMarker = L.Marker.extend({
 
 function showPost() {
  $('#main-post-container').show();
- $('#map').animate ({width:"33%"},"slow").siblings('#main-post-container').animate({'width': '64%'}, "slow");
- var iframe = document.getElementById('main-post');
- iframe.src = this.options.url;
- map.fitBounds(markers.getBounds(), {maxZoom: 8});
+ var src = this.options.url;
+ $('#map').animate ({width:"33%"},"slow").siblings('#main-post-container')
+   .animate({'width': '64%'}, "slow",function(){
+     var iframe = document.getElementById('main-post');
+     iframe.src = src;
+     map.fitBounds(markers.getBounds(), {maxZoom: 8});
+   });
  /*
  $('#loading').show();
  $('#postcard').hide();
@@ -102,11 +105,3 @@ $(document).ready(function(){
  line.addTo(map);
  }
 }); 
-
-/*
-$(document).ready(function(){
- map.fitBounds(markers.getBounds(), {maxZoom: 14});
- map.addLayer(markers);
- line.addTo(map);
-}); 
-*/
