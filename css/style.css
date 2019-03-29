@@ -82,9 +82,7 @@ a:hover {
 #main-post {
 	min-height: inherit;
 	width: 100%;
-	overflow: auto;
 	border: none;
-  padding: 0 20px;
 }
 
 div.circle {
@@ -97,10 +95,11 @@ div.circle {
 }
 
 #content {
-	overflow: auto;
+	overflow: visible;
 	border: solid 0px red;
 	min-height: 600px;
 	height: 600px;
+  padding: 0 20px;
 }
 
 .post-header {
