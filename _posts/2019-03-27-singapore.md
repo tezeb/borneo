@@ -5,7 +5,7 @@ date:   2019-03-18 21:48:33 +0100
 img_dir: "singapore"
 lat: 1.345701455472609
 lon: 103.809814453125
-categories: jekyll update
+categories: singapur
 ---
 ## Dzień 0
 
@@ -53,11 +53,11 @@ Po tak ciekawej wycieczce czekał nas późny powrót do domu, w tym przeprawa 
 Chcieliśmy być dzielni i nie dać się jetlagowi. Wyszło jak wyszło.
 Już o 12 poszliśmy na śniadanie do sąsiedniego domu, który polecił nam gospodarz.
 Dostaliśmy przekrój kolorystyczny bliżej nieokreślonego produktu spożywczego.
-Po zjedzeniu połowy doszliśmy do wniosku, że to azjatyckie pierogi faszerowane zieloną cebulką(zielony), kapustą(żółty) i pastą z czerwonej fasoli z dodatkami, których nie dało się zidentyfikować(szary, żółty, fioletowy).
+Po zjedzeniu połowy doszliśmy do wniosku, że to azjatyckie pierogi faszerowane zieloną cebulką (zielony), kapustą (żółty) i pastą z czerwonej fasoli z dodatkami, których nie dało się zidentyfikować (szary, żółty, fioletowy).
 Po tym eksperymencie musieliśmy dojeść wietnamskim śniadaniem.
 Tym razem przejście przez granicę okazało się bardziej czasochłonne.
 Paszport jednej z osób przed nami wyświetlił ostrzeżenie w systemie pograniczników.
-Pani dobrowolnie oddała się w ręce policji na którą musieliśmy czekać aż 15 minut.
+Pani dobrowolnie oddała się w ręce policji, na którą musieliśmy czekać aż 15 minut.
 Było późno, więc złapaliśmy bezpośredni autobus do centrum (żółty Causewaylink).
 Na miejscu Małgosia została moim GPSem i zaprowadziła mnie do Chinatown, po drodze
 zahaczając o Little India. Tym razem wszystko poszło zgodnie z planem. Okazuje się, że można nawigować
@@ -66,18 +66,33 @@ Na start odwiedziliśmy meczet Sułtana, przed wejściem do którego trzeba był
 wdzianka (kobiety). Hulał tam przyjemny wiatr i panowała pobożna atmosfera.
 Później ruszyliśmy w matecznik dżungli. Betonowej.
 Było gorąco, a Singapur niestety nie zachwycał.
-W Chinatown zjedliśmy Laksę (tradycyjną malezyjską zupę), w bardzo średnim wykonaniu.
+W Chinatown zjedliśmy Laksę - tradycyjną malezyjską zupę na mleku kokosowym z dużą ilością kurkumy.
 Na deser miały być fasolowe lody, ale niestety nie udało nam się ich znaleźć.
 Wieczór spędziliśmy przy Marina Bay, podziwiając wieżowce i biegaczy.
 Było bardzo głośno, miejsko i tłumnie.
-
-Wszyscy poruszają się tam samochodami, widzieliśmy 6 osób na rowerach (w tym 2 pracowników na terenie ZOO), jakieś 100 metrów ścieżki i mnóstwo zakazów jazdy na rowerze.
-
-
+Mocno zmęczeni wsiedliśmy w MRT, żeby jak najszybciej dotrzeć do domu.
+W Johor wybraliśmy się na pobliski food-market, żeby zjeść kolację.
+W Malezji zazwyczaj bez problemu można dogadać się po angielsku, ale tu sprzedawcy prawie nie znali tego języka.
+Wybór padł na rodzinny straganiki serwujący chińskie jedzenie.
+Na ladzie leżały liście, makarony i mnóstwo innych pysznych składników.
+Mając dość ryżu, poprosiliśmy o zastąpienie go właśnie makaronem(noodle) w wybranych daniach.
+Obsługujący nas chłopak zaprzeczył i powiedział "Mi Hun", co my radośnie potwierdziliśmy.
+Jakież było nasze zdumienie, gdy dostaliśmy dwie osobne potrawy.
+Okazało się, że "Mi hun", to tradycyjny malezyjski makaron z woka serwowany z kurczakiem(lub innym dodatkiem) i warzywami.
+Kolacja była bardzo sycąca.
 
 ## Dzień 3 - Spore Zoo
-<img src="/img/full/">
-
+Na ostatni dzień pobytu zostawiliśmy Singapurskie Zoo.
+Do ogrodu dotarliśmy dopiero na 15, ze względu na brak odpowiednich autobusów na granicy.
+Czasu nie było za wiele, ale i tak dzień był pełen wrażeń.
+Podobnie jak pozostałe parki, Zoo jest przyjaźnie urządzone i pozwala zbliżyć się do zwierząt w niespotykany gdzie
+indziej sposób.
+Większość klatek z drapieżnikami posiada sekcje z szybą, tak by móc w pełni podziwiać zwierzęta.
+Bardzo spodobał nam się wybieg dla żyraf. Posiada platformę na której można stanąć oko w oko z żyrafą i to dosłownie na
+wyciągnięcie ręki. Na platformę normalnie wchodzi się za opłatą w porze karmienia, ale była już zamknięta więc
+wkradliśmy się tam nielegalnie. Miasto zakazów obudziło w nas potrzebę rebelii.
+Ciekawostką jest również kilka gatunków małp, które żyją wolno na terenie Zoo.
+Można dostrzec je w koronach drzew.
 
 
 
