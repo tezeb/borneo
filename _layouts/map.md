@@ -19,4 +19,6 @@ var datapoints = [
   <div id="main-post">
     {{ content }}
   </div>
+  <div style="clear: both;"></div>
 </div>
+<div style="clear: both;"></div>

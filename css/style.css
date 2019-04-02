@@ -53,13 +53,14 @@ a:hover {
   font-weight: 800;
 }
 #main-content {
-	overflow: auto;
+	overflow: visible;
 	border: solid 0px red;
-	min-height: 600px;
+  min-height: 600px;
 }
 #map {
 	border: solid 2px #00f;
-	min-height: 600px;
+  height: 600px;
+  min-height: 600px;
 	margin: 0 auto;
 	float: left;
 	position: relative;
@@ -77,6 +78,7 @@ a:hover {
 	border: solid 2px #ffff00;
 	overflow: auto;
 	min-height: inherit;
+  height: 600px;
 }
 
 #main-post {
