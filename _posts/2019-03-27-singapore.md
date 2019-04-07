@@ -1,13 +1,14 @@
 ---
 layout: page
 title:  "Singapur"
-date:   2019-03-18 21:48:33 +0100
+date:   2019-03-29
 img_dir: "singapore"
 lat: 1.345701455472609
 lon: 103.809814453125
 categories: singapur
 ---
-## Dzień 0
+
+{% include subtitle.md date="Dzień 0 (24.03.2019)" %}
 
 Naszą podróż rozpoczęliśmy od zwiedzania Singapuru.
 Lecieliśmy z Warszawy Qatar Airways z przesiadką w Doha.
@@ -41,7 +42,8 @@ przekonać do tego taksówkarza przy dworcu.
 -- Bartek
 
 
-## Dzień 1 - River Safari & Night Safari
+{% include subtitle.md date="Dzień 1 (25.03.2019)" title="River Safari & Night Safari" %}
+
 Szukając w Internecie informacji co zobaczyć w Singapurze na każdej stronie pojawiało się Zoo.
 Ogród podzielony jest na trzy części - River Safari, Night Safari i część główną. Wstęp do jednego parku kosztuje 32 lub 35 dolarów, więc sporo, ale można też dostać łączony bilet na dwa, trzy lub cztery parki (jeszcze jeden ogród z ptakami znajduje się w innej części Singapuru, dojazd tam zajmuje około godziny). Nasz wybór padł na bilet łączony do wszystkich parków, chociaż początkowo chcieliśmy iść tylko do dwóch. Przez spore opóźnienia przy przekraczaniu granicy byliśmy w Zoo o 16.00, a ogród jest zamykany o 18.00. Dlatego zwiedzanie głównej części zostawiliśmy na inny dzień i zaczęliśmy od River Safari. Wracając do opinii z Internetu to właśnie ta część parku zbiera najniższe oceny. Według większości ludzi (prawie każda opinia na TripAdvisor!) RS warto odwiedzić tylko ze względu na... pandy. Według mnie to spora przesada, bo reszta jest bardzo ciekawa. Są tam ryby, małpki, krokodyle, manaty, ptaki, wspaniała flora i przepięknie przygotowane ścieżki. A jedyna panda siedziała w ogromnym klimatyzowanym pomieszczeniu i chowała się w pobliżu swojego miejsca do spania. Szczerze mówiąc było to dość rozczarowujące. Elementem wyróżniającym singapurskie Zoo od tych w Polsce są klatki ze zwierzętami, do których możemy wejść! Zwierząt oczywiście nie powinno się dotykać, ale malutkie małpki chętnie przychodzą do ludzi, siedzą na barierkach i biegają po lianach nad głowami.
 
@@ -52,7 +54,8 @@ Po tak ciekawej wycieczce czekał nas późny powrót do domu, w tym przeprawa 
 -- Małgosia
 
 
-## Dzień 2 - Marina Bay
+{% include subtitle.md date="Dzień 2 (26.03.2019)" title="Marina Bay" %}
+
 Chcieliśmy być dzielni i nie dać się jetlagowi. Wyszło jak wyszło.
 Już o 12 poszliśmy na śniadanie do sąsiedniego domu, który polecił nam gospodarz.
 Dostaliśmy przekrój kolorystyczny bliżej nieokreślonego produktu spożywczego.
@@ -87,7 +90,8 @@ Kolacja była bardzo sycąca.
 -- Bartek
 
 
-## Dzień 3 - Spore Zoo
+{% include subtitle.md date="Dzień 3 (27.03.2019)" title="Spore Zoo" %}
+
 Na ostatni dzień pobytu zostawiliśmy Singapurskie Zoo.
 Do ogrodu dotarliśmy dopiero na 15, ze względu na brak odpowiednich autobusów na granicy.
 Czasu nie było za wiele, ale i tak dzień był pełen wrażeń.

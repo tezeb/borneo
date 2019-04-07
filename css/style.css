@@ -108,6 +108,9 @@ div.circle {
 	font-weight: 800;
 	line-height: 160%;
 }
+.post-title {
+  margin-bottom: 32px;
+}
 
 .inner {
 	line-height: 160%;
