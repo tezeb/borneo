@@ -112,9 +112,8 @@ div.circle {
   margin-bottom: 32px;
 }
 
-.inner {
+.post-content p {
 	line-height: 160%;
-	margin: 0 20px 20px;
 }
 
 .full {
