@@ -67,9 +67,9 @@ function hideImage() {
 var markers = L.geoJson(null, {});
 var line = L.polyline([], {
 //  color: '#9242f4',
-  color: 'red',
+  color: '#ff0',
   weight: 4,
-  opacity: 0.8,
+  opacity: 1,
   smoothFactor: 1,
   dashArray: '1, 10',
   clickable: true,
