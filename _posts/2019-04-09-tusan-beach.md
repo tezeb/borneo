@@ -3,8 +3,8 @@ layout: page
 title:  "Tusan Beach"
 date:   3019-04-09
 img_dir: "tusan_beach"
-lat: 1.345701455472609
-lon: 103.809814453125
+lat: 4.124947
+lon: 113.821746
 categories: tusan
 ---
 
