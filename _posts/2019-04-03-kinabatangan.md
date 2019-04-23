@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Kinabatangan river"
+title:  "Kinabatangan River"
 date:   2019-04-03
 img_dir: "kinabatangan"
 lat: 5.497699
