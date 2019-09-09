@@ -6,11 +6,14 @@ img_dir: "tusan_beach"
 lat: 4.124947
 lon: 113.821746
 categories: tusan
+tags: borneo
 ---
 
 {% include subtitle.md date="Dzień 1 (9.04.2019)" title="Welcome to Sarawak" %}
-
+<!--more_start-->
 Do Miri przyjechaliśmy po 17.00. Z dworca zamówiliśmy Graba, który za kilkanaście ringgitów zawiózł nas do hostelu. To nasz pierwszy przejazd po stanie Sarawak i od razu było widać ogromną różnicę w porównaniu do miejsc, w których byliśmy do tej pory. Ulice były zadbane i czyste, budynki lepiej utrzymane, a całe miasto sprawiało wrażenie bardziej rozwiniętego. Nasz hostel znajdował się w dość nowej dzielnicy, blisko plaży i parku. W sąsiedztwie były hipsterskie knajpy z jedzeniem i alkoholem oraz zadbane i zamiecione chodniki (niespotykane wcześniej!). Tym razem trafiliśmy na mały, ładny i pachnący hostelik.
+
+<!--more-->
 
 {% include subtitle.md date="Dzień 2 (10.04.2019)" title="W poszukiwaniu najpiękniejszych plaż" %}
 
