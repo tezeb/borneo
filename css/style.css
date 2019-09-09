@@ -3,6 +3,10 @@ body {
 	color: #00f;
 }
 
+#body-margin {
+  padding: 0;
+}
+
 a, a:visited {
 	color: #00f;
 	text-decoration: none;
@@ -12,11 +16,88 @@ a:hover {
 	font-weight: 800;
 }
 
+.new_post {
+  border: solid 0px #f00;
+  overflow: hidden;
+  display: flex;
+}
+
+.new_post img {
+  width: 100%;
+  border: solid 3px #ff0;
+}
+
+.new_post_first {
+  width: 70%;
+  flex: 7;
+}
+
+#new_post_excerpt {
+  max-width: 640px;
+  overflow: auto;
+}
+
+#new_post_excerpt .more {
+  float: right;
+  display: inline-block;
+}
+
+#new_footer {
+  border-top: solid 3px #ff0;
+  display: flex;
+}
+
+#new_footer > div {
+  flex: 1;
+}
+
+#new_contact {
+  color: #f0f;
+}
+
+#new_contact > span {
+  display: inline-block;
+  float: right;
+}
+
+#new_footer_dots {
+  padding-top: 20px;
+}
+
+#new_footer_dots img {
+  height: 100px;
+}
+
+#new_go_to_map, #new_go_to_insta {
+  margin-left: 20px;
+  flex: 3;
+  color: #f0f;
+  text-align: left;
+  font-size: 23px;
+  font-weight: 800;
+  align-self: center;
+  /*  TODO 09.19 */
+  padding-bottom: 200px;
+  padding-right: 20px;
+}
+
+#new_go_to_insta {
+  transform: rotate(-90.0deg);
+}
+
+#new_go_to_map span {
+  display: block;
+  float: right;
+}
+
+/*  OLD */
+
 #main-page {
 	background-color: white;
 	margin: auto;
 	padding: 0;
-	width: 1000px;
+  min-width: 930px;
+  max-width: 1120px;
 }
 #main-headerimg {
 	border: solid 0px black;
@@ -29,18 +110,36 @@ a:hover {
 }
 #main-menu {
 	border: solid 0px black;
-	height: 20px;
 	text-align: center;
   margin-bottom: 5px;
+}
+#main-menu ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: inherit;
+  height: 1.5em;
+  overflow: hidden;
 }
 #main-menu li {
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1ch;
 }
-#main-menu ul {
-  padding: 0;
+
+#nav-toggle:hover {
+  font-size: 17px;
 }
+
+#nav-toggle::after {
+  font-size: 17px;
+  overflow: hidden;
+}
+
 #main-menu li a::after {
   content: attr(title);
   font-weight: bold;
@@ -53,9 +152,12 @@ a:hover {
   font-weight: 800;
 }
 #main-content {
-	overflow: visible;
 	border: solid 0px red;
+	/*
+   * needed for map? TODO: 09.19
+  overflow: visible;
   min-height: 600px;
+  */
 }
 #map {
 	border: solid 2px #00f;
@@ -224,3 +326,17 @@ div.circle {
 .fotorama__thumb-border {
   border-color: #f0f;
 }
+
+/*  TMP
+#main-page {
+  border: solid 1px #F00;
+}
+
+#main-header {
+  border: solid 1px #0F0;
+}
+
+#main-content {
+  border: solid 1px #00F;
+}
+*/

@@ -13,6 +13,6 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&amp;subset=latin-ext" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&amp;subset=latin-ext" rel="stylesheet"> 
   <link rel="stylesheet" href="/css/style.css" />
 

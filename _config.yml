@@ -31,6 +31,7 @@ theme: minima
 #  - jekyll-feed
 # hide drafts as future posts
 future: false
+excerpt_separator: <!--more-->
 
 defaults:
   -
